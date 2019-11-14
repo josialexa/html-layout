@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.single {
+    height: calc(100% / 7);
+}
+
+.double {
+    max-height: calc((100% / 7) * 2);
+}
+
+.single, .double {
+    width: 100%;
+}
+
+.one {
+    background-color: lightgray;
+    position: relative;
+}
+
+.two {
+    font-family: verdana, sans-serif;
+    font-size: 12pt;
+    padding-bottom: 20px;
+    white-space: pre-line;
+}
+
+.three {
+    background-color: rgb(76, 162, 216);
+}
+
+.four {
+    background-color: mediumaquamarine;
+}
+
+.five {
+    background-color: yellowgreen;
+}
+
+.six {
+    background-color: yellow;
+}
+
+.one-inner-box {
+    height: 65%;
+    width: 9%;
+    margin-top: 15px;
+    left: 5%;
+    background-color: rgb(76, 162, 216);
+    position: absolute;
+}
+
+p {
+    display: block;
+    margin-left: 80px;
+}
