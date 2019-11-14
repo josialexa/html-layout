@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top, .middle {
+    border-width: 5px;
+    border-color: black;
+    margin: 15px 20px 25px;
+}
+
+.top {
+    height: 20%;
+    border-style: solid;
+    position: relative;
+}
+
+.middle {
+    height: 25%;
+    border-style: dotted;
+}
+
+.bottom {
+    width: 55%;
+    height: 37%;
+    margin: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 3px 3px 3px gray;
+    border: 1px solid gray;
+    color: mediumblue;
+    letter-spacing: 10px;
+}
+
+.top-text {
+    padding-top: 3em;
+}
+
+.shape {
+    margin-right: 20px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.top-left {
+    background-color: rebeccapurple;
+    height: 75%;
+    width: 5%;
+    margin-top: 30px;
+}
+
+.top-middle {
+    background-color: seagreen;
+    height: 90%;
+    width: 40%;
+}
+
+.top-right {
+    height: 90%;
+    width: 19%;
+    background-color: rgb(61, 178, 207);
+    border-radius: 50%;
+}
+
+.inner-box {
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgb(252, 245, 155);
+    width: 90%;
+    height: 70%;
+    box-shadow: 5px 5px 5px black;
+}
+
+span {
+    display: block;
+}
